@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		869BC03729407A280083BF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC03629407A280083BF1E /* AppDelegate.swift */; };
+		869BC03929407A280083BF1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC03829407A280083BF1E /* SceneDelegate.swift */; };
+		869BC03E29407A280083BF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869BC03C29407A280083BF1E /* Main.storyboard */; };
+		869BC04029407A2A0083BF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869BC03F29407A2A0083BF1E /* Assets.xcassets */; };
+		869BC04329407A2A0083BF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869BC04129407A2A0083BF1E /* LaunchScreen.storyboard */; };
+		869BC04E29407A2B0083BF1E /* VIPERKisilerUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC04D29407A2B0083BF1E /* VIPERKisilerUygulamasiTests.swift */; };
+		869BC05829407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC05729407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.swift */; };
+		869BC05A29407A2B0083BF1E /* VIPERKisilerUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC05929407A2B0083BF1E /* VIPERKisilerUygulamasiUITestsLaunchTests.swift */; };
+		869BC06729407A620083BF1E /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC06629407A620083BF1E /* Kisiler.swift */; };
+		869BC07129407ADD0083BF1E /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC07029407ADD0083BF1E /* AnasayfaVC.swift */; };
+		869BC07329407AF10083BF1E /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC07229407AF10083BF1E /* KisiKayitVC.swift */; };
+		869BC07529407B0A0083BF1E /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC07429407B0A0083BF1E /* KisiDetayVC.swift */; };
+		869BC07729407B350083BF1E /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC07629407B350083BF1E /* TableViewHucre.swift */; };
+		869BC07F29407D0F0083BF1E /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC07E29407D0F0083BF1E /* AnasayfaProtocols.swift */; };
+		869BC08229407D350083BF1E /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC08129407D350083BF1E /* AnasayfaRouter.swift */; };
+		869BC08529407D750083BF1E /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC08429407D750083BF1E /* AnasayfaInteractor.swift */; };
+		869BC08829407D980083BF1E /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC08729407D980083BF1E /* AnasayfaPresenter.swift */; };
+		869BC08C29407DF10083BF1E /* KisiKayitProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC08B29407DF10083BF1E /* KisiKayitProtocols.swift */; };
+		869BC08F29407E160083BF1E /* KisiKayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC08E29407E160083BF1E /* KisiKayitRouter.swift */; };
+		869BC09229407E3B0083BF1E /* KisiKayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC09129407E3B0083BF1E /* KisiKayitInteractor.swift */; };
+		869BC09529407E690083BF1E /* KisiKayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC09429407E690083BF1E /* KisiKayitPresenter.swift */; };
+		869BC09E29407EE90083BF1E /* KisiDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC09D29407EE90083BF1E /* KisiDetayProtocols.swift */; };
+		869BC0A029407F030083BF1E /* KisiDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC09F29407F030083BF1E /* KisiDetayRouter.swift */; };
+		869BC0A229407F200083BF1E /* KisiDetayınteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0A129407F200083BF1E /* KisiDetayınteractor.swift */; };
+		869BC0A429407F3E0083BF1E /* KisiDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0A329407F3E0083BF1E /* KisiDetayPresenter.swift */; };
+		869BC0B4294085D00083BF1E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0A9294085CE0083BF1E /* FMDatabaseAdditions.m */; };
+		869BC0B5294085D00083BF1E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0AA294085CE0083BF1E /* FMDatabaseQueue.m */; };
+		869BC0B6294085D00083BF1E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0AB294085CE0083BF1E /* FMDatabasePool.m */; };
+		869BC0B7294085D00083BF1E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0AF294085CF0083BF1E /* FMDatabase.m */; };
+		869BC0B8294085D00083BF1E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BC0B1294085CF0083BF1E /* FMResultSet.m */; };
+		869BC0BA294086150083BF1E /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 869BC0B9294086150083BF1E /* rehber.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		869BC04A29407A2B0083BF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869BC02B29407A280083BF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869BC03229407A280083BF1E;
+			remoteInfo = VIPERKisilerUygulamasi;
+		};
+		869BC05429407A2B0083BF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869BC02B29407A280083BF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869BC03229407A280083BF1E;
+			remoteInfo = VIPERKisilerUygulamasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		869BC03329407A280083BF1E /* VIPERKisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERKisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869BC03629407A280083BF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869BC03829407A280083BF1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		869BC03D29407A280083BF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		869BC03F29407A2A0083BF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869BC04229407A2A0083BF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869BC04429407A2A0083BF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869BC04929407A2B0083BF1E /* VIPERKisilerUygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERKisilerUygulamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869BC04D29407A2B0083BF1E /* VIPERKisilerUygulamasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERKisilerUygulamasiTests.swift; sourceTree = "<group>"; };
+		869BC05329407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERKisilerUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869BC05729407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERKisilerUygulamasiUITests.swift; sourceTree = "<group>"; };
+		869BC05929407A2B0083BF1E /* VIPERKisilerUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERKisilerUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		869BC06629407A620083BF1E /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		869BC07029407ADD0083BF1E /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		869BC07229407AF10083BF1E /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
+		869BC07429407B0A0083BF1E /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
+		869BC07629407B350083BF1E /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
+		869BC07E29407D0F0083BF1E /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		869BC08129407D350083BF1E /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		869BC08429407D750083BF1E /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		869BC08729407D980083BF1E /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		869BC08B29407DF10083BF1E /* KisiKayitProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitProtocols.swift; sourceTree = "<group>"; };
+		869BC08E29407E160083BF1E /* KisiKayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitRouter.swift; sourceTree = "<group>"; };
+		869BC09129407E3B0083BF1E /* KisiKayitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitInteractor.swift; sourceTree = "<group>"; };
+		869BC09429407E690083BF1E /* KisiKayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitPresenter.swift; sourceTree = "<group>"; };
+		869BC09D29407EE90083BF1E /* KisiDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayProtocols.swift; sourceTree = "<group>"; };
+		869BC09F29407F030083BF1E /* KisiDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayRouter.swift; sourceTree = "<group>"; };
+		869BC0A129407F200083BF1E /* KisiDetayınteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KisiDetayınteractor.swift"; sourceTree = "<group>"; };
+		869BC0A329407F3E0083BF1E /* KisiDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayPresenter.swift; sourceTree = "<group>"; };
+		869BC0A7294085B20083BF1E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		869BC0A8294085CE0083BF1E /* VIPERKisilerUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPERKisilerUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		869BC0A9294085CE0083BF1E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		869BC0AA294085CE0083BF1E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		869BC0AB294085CE0083BF1E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		869BC0AC294085CF0083BF1E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		869BC0AD294085CF0083BF1E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		869BC0AE294085CF0083BF1E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		869BC0AF294085CF0083BF1E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		869BC0B0294085CF0083BF1E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		869BC0B1294085CF0083BF1E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		869BC0B2294085CF0083BF1E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		869BC0B3294085CF0083BF1E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		869BC0B9294086150083BF1E /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rehber.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869BC03029407A280083BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC04629407A2B0083BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC05029407A2B0083BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		869BC02A29407A280083BF1E = {
+			isa = PBXGroup;
+			children = (
+				869BC03529407A280083BF1E /* VIPERKisilerUygulamasi */,
+				869BC04C29407A2B0083BF1E /* VIPERKisilerUygulamasiTests */,
+				869BC05629407A2B0083BF1E /* VIPERKisilerUygulamasiUITests */,
+				869BC03429407A280083BF1E /* Products */,
+				869BC0A6294085B20083BF1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		869BC03429407A280083BF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869BC03329407A280083BF1E /* VIPERKisilerUygulamasi.app */,
+				869BC04929407A2B0083BF1E /* VIPERKisilerUygulamasiTests.xctest */,
+				869BC05329407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869BC03529407A280083BF1E /* VIPERKisilerUygulamasi */ = {
+			isa = PBXGroup;
+			children = (
+				869BC0A52940859C0083BF1E /* FM */,
+				869BC07B29407BCB0083BF1E /* entity */,
+				869BC07A29407BBD0083BF1E /* Kisidetay-module */,
+				869BC07929407BB10083BF1E /* Kisikayit-module */,
+				869BC07829407BA00083BF1E /* Anasayfa-Module */,
+				869BC03629407A280083BF1E /* AppDelegate.swift */,
+				869BC03829407A280083BF1E /* SceneDelegate.swift */,
+				869BC03C29407A280083BF1E /* Main.storyboard */,
+				869BC03F29407A2A0083BF1E /* Assets.xcassets */,
+				869BC04129407A2A0083BF1E /* LaunchScreen.storyboard */,
+				869BC0B9294086150083BF1E /* rehber.sqlite */,
+				869BC04429407A2A0083BF1E /* Info.plist */,
+			);
+			path = VIPERKisilerUygulamasi;
+			sourceTree = "<group>";
+		};
+		869BC04C29407A2B0083BF1E /* VIPERKisilerUygulamasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				869BC04D29407A2B0083BF1E /* VIPERKisilerUygulamasiTests.swift */,
+			);
+			path = VIPERKisilerUygulamasiTests;
+			sourceTree = "<group>";
+		};
+		869BC05629407A2B0083BF1E /* VIPERKisilerUygulamasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				869BC05729407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.swift */,
+				869BC05929407A2B0083BF1E /* VIPERKisilerUygulamasiUITestsLaunchTests.swift */,
+			);
+			path = VIPERKisilerUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+		869BC07829407BA00083BF1E /* Anasayfa-Module */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08929407DAB0083BF1E /* View */,
+				869BC08629407D850083BF1E /* Presenter */,
+				869BC08329407D570083BF1E /* Interactor */,
+				869BC08029407D230083BF1E /* Router */,
+				869BC07D29407CFA0083BF1E /* protocols */,
+				869BC07C29407CED0083BF1E /* tableview */,
+			);
+			path = "Anasayfa-Module";
+			sourceTree = "<group>";
+		};
+		869BC07929407BB10083BF1E /* Kisikayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09629407E7D0083BF1E /* view */,
+				869BC09329407E570083BF1E /* presenter */,
+				869BC09029407E2A0083BF1E /* interactor */,
+				869BC08D29407E050083BF1E /* router */,
+				869BC08A29407DD90083BF1E /* protocols */,
+			);
+			path = "Kisikayit-module";
+			sourceTree = "<group>";
+		};
+		869BC07A29407BBD0083BF1E /* Kisidetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09B29407ECF0083BF1E /* view */,
+				869BC09A29407EC80083BF1E /* router */,
+				869BC09929407EBF0083BF1E /* presenter */,
+				869BC09829407EB20083BF1E /* interactor */,
+				869BC09729407EA60083BF1E /* protocols */,
+			);
+			path = "Kisidetay-module";
+			sourceTree = "<group>";
+		};
+		869BC07B29407BCB0083BF1E /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				869BC06629407A620083BF1E /* Kisiler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		869BC07C29407CED0083BF1E /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				869BC07629407B350083BF1E /* TableViewHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		869BC07D29407CFA0083BF1E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				869BC07E29407D0F0083BF1E /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		869BC08029407D230083BF1E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08129407D350083BF1E /* AnasayfaRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		869BC08329407D570083BF1E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08429407D750083BF1E /* AnasayfaInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		869BC08629407D850083BF1E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08729407D980083BF1E /* AnasayfaPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		869BC08929407DAB0083BF1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				869BC07029407ADD0083BF1E /* AnasayfaVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		869BC08A29407DD90083BF1E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08B29407DF10083BF1E /* KisiKayitProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		869BC08D29407E050083BF1E /* router */ = {
+			isa = PBXGroup;
+			children = (
+				869BC08E29407E160083BF1E /* KisiKayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		869BC09029407E2A0083BF1E /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09129407E3B0083BF1E /* KisiKayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		869BC09329407E570083BF1E /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09429407E690083BF1E /* KisiKayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		869BC09629407E7D0083BF1E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				869BC07229407AF10083BF1E /* KisiKayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		869BC09729407EA60083BF1E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09D29407EE90083BF1E /* KisiDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		869BC09829407EB20083BF1E /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				869BC0A129407F200083BF1E /* KisiDetayınteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		869BC09929407EBF0083BF1E /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				869BC0A329407F3E0083BF1E /* KisiDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		869BC09A29407EC80083BF1E /* router */ = {
+			isa = PBXGroup;
+			children = (
+				869BC09F29407F030083BF1E /* KisiDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		869BC09B29407ECF0083BF1E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				869BC07429407B0A0083BF1E /* KisiDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		869BC0A52940859C0083BF1E /* FM */ = {
+			isa = PBXGroup;
+			children = (
+				869BC0AD294085CF0083BF1E /* FMDatabase.h */,
+				869BC0AF294085CF0083BF1E /* FMDatabase.m */,
+				869BC0AC294085CF0083BF1E /* FMDatabaseAdditions.h */,
+				869BC0A9294085CE0083BF1E /* FMDatabaseAdditions.m */,
+				869BC0AE294085CF0083BF1E /* FMDatabasePool.h */,
+				869BC0AB294085CE0083BF1E /* FMDatabasePool.m */,
+				869BC0B0294085CF0083BF1E /* FMDatabaseQueue.h */,
+				869BC0AA294085CE0083BF1E /* FMDatabaseQueue.m */,
+				869BC0B2294085CF0083BF1E /* FMDB.h */,
+				869BC0B3294085CF0083BF1E /* FMResultSet.h */,
+				869BC0B1294085CF0083BF1E /* FMResultSet.m */,
+				869BC0A8294085CE0083BF1E /* VIPERKisilerUygulamasi-Bridging-Header.h */,
+			);
+			path = FM;
+			sourceTree = "<group>";
+		};
+		869BC0A6294085B20083BF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869BC0A7294085B20083BF1E /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869BC03229407A280083BF1E /* VIPERKisilerUygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869BC05D29407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasi" */;
+			buildPhases = (
+				869BC02F29407A280083BF1E /* Sources */,
+				869BC03029407A280083BF1E /* Frameworks */,
+				869BC03129407A280083BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPERKisilerUygulamasi;
+			productName = VIPERKisilerUygulamasi;
+			productReference = 869BC03329407A280083BF1E /* VIPERKisilerUygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		869BC04829407A2B0083BF1E /* VIPERKisilerUygulamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869BC06029407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasiTests" */;
+			buildPhases = (
+				869BC04529407A2B0083BF1E /* Sources */,
+				869BC04629407A2B0083BF1E /* Frameworks */,
+				869BC04729407A2B0083BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869BC04B29407A2B0083BF1E /* PBXTargetDependency */,
+			);
+			name = VIPERKisilerUygulamasiTests;
+			productName = VIPERKisilerUygulamasiTests;
+			productReference = 869BC04929407A2B0083BF1E /* VIPERKisilerUygulamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		869BC05229407A2B0083BF1E /* VIPERKisilerUygulamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869BC06329407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasiUITests" */;
+			buildPhases = (
+				869BC04F29407A2B0083BF1E /* Sources */,
+				869BC05029407A2B0083BF1E /* Frameworks */,
+				869BC05129407A2B0083BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869BC05529407A2B0083BF1E /* PBXTargetDependency */,
+			);
+			name = VIPERKisilerUygulamasiUITests;
+			productName = VIPERKisilerUygulamasiUITests;
+			productReference = 869BC05329407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869BC02B29407A280083BF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					869BC03229407A280083BF1E = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+					869BC04829407A2B0083BF1E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 869BC03229407A280083BF1E;
+					};
+					869BC05229407A2B0083BF1E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 869BC03229407A280083BF1E;
+					};
+				};
+			};
+			buildConfigurationList = 869BC02E29407A280083BF1E /* Build configuration list for PBXProject "VIPERKisilerUygulamasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869BC02A29407A280083BF1E;
+			productRefGroup = 869BC03429407A280083BF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869BC03229407A280083BF1E /* VIPERKisilerUygulamasi */,
+				869BC04829407A2B0083BF1E /* VIPERKisilerUygulamasiTests */,
+				869BC05229407A2B0083BF1E /* VIPERKisilerUygulamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869BC03129407A280083BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869BC04329407A2A0083BF1E /* LaunchScreen.storyboard in Resources */,
+				869BC0BA294086150083BF1E /* rehber.sqlite in Resources */,
+				869BC04029407A2A0083BF1E /* Assets.xcassets in Resources */,
+				869BC03E29407A280083BF1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC04729407A2B0083BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC05129407A2B0083BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869BC02F29407A280083BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869BC07129407ADD0083BF1E /* AnasayfaVC.swift in Sources */,
+				869BC09E29407EE90083BF1E /* KisiDetayProtocols.swift in Sources */,
+				869BC08F29407E160083BF1E /* KisiKayitRouter.swift in Sources */,
+				869BC07F29407D0F0083BF1E /* AnasayfaProtocols.swift in Sources */,
+				869BC08229407D350083BF1E /* AnasayfaRouter.swift in Sources */,
+				869BC0B6294085D00083BF1E /* FMDatabasePool.m in Sources */,
+				869BC0B8294085D00083BF1E /* FMResultSet.m in Sources */,
+				869BC09229407E3B0083BF1E /* KisiKayitInteractor.swift in Sources */,
+				869BC07729407B350083BF1E /* TableViewHucre.swift in Sources */,
+				869BC0B7294085D00083BF1E /* FMDatabase.m in Sources */,
+				869BC08529407D750083BF1E /* AnasayfaInteractor.swift in Sources */,
+				869BC08C29407DF10083BF1E /* KisiKayitProtocols.swift in Sources */,
+				869BC0A429407F3E0083BF1E /* KisiDetayPresenter.swift in Sources */,
+				869BC03729407A280083BF1E /* AppDelegate.swift in Sources */,
+				869BC07529407B0A0083BF1E /* KisiDetayVC.swift in Sources */,
+				869BC0A229407F200083BF1E /* KisiDetayınteractor.swift in Sources */,
+				869BC0A029407F030083BF1E /* KisiDetayRouter.swift in Sources */,
+				869BC03929407A280083BF1E /* SceneDelegate.swift in Sources */,
+				869BC06729407A620083BF1E /* Kisiler.swift in Sources */,
+				869BC09529407E690083BF1E /* KisiKayitPresenter.swift in Sources */,
+				869BC0B5294085D00083BF1E /* FMDatabaseQueue.m in Sources */,
+				869BC08829407D980083BF1E /* AnasayfaPresenter.swift in Sources */,
+				869BC07329407AF10083BF1E /* KisiKayitVC.swift in Sources */,
+				869BC0B4294085D00083BF1E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC04529407A2B0083BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869BC04E29407A2B0083BF1E /* VIPERKisilerUygulamasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869BC04F29407A2B0083BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869BC05A29407A2B0083BF1E /* VIPERKisilerUygulamasiUITestsLaunchTests.swift in Sources */,
+				869BC05829407A2B0083BF1E /* VIPERKisilerUygulamasiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		869BC04B29407A2B0083BF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869BC03229407A280083BF1E /* VIPERKisilerUygulamasi */;
+			targetProxy = 869BC04A29407A2B0083BF1E /* PBXContainerItemProxy */;
+		};
+		869BC05529407A2B0083BF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869BC03229407A280083BF1E /* VIPERKisilerUygulamasi */;
+			targetProxy = 869BC05429407A2B0083BF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		869BC03C29407A280083BF1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869BC03D29407A280083BF1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		869BC04129407A2A0083BF1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869BC04229407A2A0083BF1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		869BC05B29407A2B0083BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869BC05C29407A2B0083BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869BC05E29407A2B0083BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPERKisilerUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VIPERKisilerUygulamasi/FM/VIPERKisilerUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869BC05F29407A2B0083BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPERKisilerUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VIPERKisilerUygulamasi/FM/VIPERKisilerUygulamasi-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		869BC06129407A2B0083BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPERKisilerUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIPERKisilerUygulamasi";
+			};
+			name = Debug;
+		};
+		869BC06229407A2B0083BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPERKisilerUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIPERKisilerUygulamasi";
+			};
+			name = Release;
+		};
+		869BC06429407A2B0083BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPERKisilerUygulamasi;
+			};
+			name = Debug;
+		};
+		869BC06529407A2B0083BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.VIPERKisilerUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPERKisilerUygulamasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869BC02E29407A280083BF1E /* Build configuration list for PBXProject "VIPERKisilerUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869BC05B29407A2B0083BF1E /* Debug */,
+				869BC05C29407A2B0083BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869BC05D29407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869BC05E29407A2B0083BF1E /* Debug */,
+				869BC05F29407A2B0083BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869BC06029407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869BC06129407A2B0083BF1E /* Debug */,
+				869BC06229407A2B0083BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869BC06329407A2B0083BF1E /* Build configuration list for PBXNativeTarget "VIPERKisilerUygulamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869BC06429407A2B0083BF1E /* Debug */,
+				869BC06529407A2B0083BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869BC02B29407A280083BF1E /* Project object */;
+}
